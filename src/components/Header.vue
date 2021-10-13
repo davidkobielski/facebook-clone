@@ -141,7 +141,7 @@ export default {
   }
 }
 .searchInput {
-  transition: transform, padding .5s;
+  transition: all .5s;
 transform-origin:bottom right;
 
   &.searchInputAnimation {
