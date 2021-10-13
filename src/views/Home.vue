@@ -1,17 +1,25 @@
 <template>
   <div class="home w-screen max-w-full h-screen bg-bodyColor">
     <Sidebar />
+    <div class="content bg-gray-500">
+      <div>
+
+      </div>
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
-import Sidebar from '@/components/Sidebar';
+import Sidebar from '@/components/Sidebar'
 
 export default {
-  name: "Home",
+  name: 'Home',
   components: {
-Sidebar
+    Sidebar,
   },
-};
+}
 </script>
