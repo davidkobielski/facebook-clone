@@ -65,6 +65,7 @@ export default {
         { id: 8, name: 'Facebook Pay', address: 'https://static.xx.fbcdn.net/rsrc.php/v3/yv/r/GJ4EaivDaSj.png' },
         { id: 9, name: 'Graj w gry', address: 'https://static.xx.fbcdn.net/rsrc.php/v3/yt/r/PObY9OA5lvJ.png' },
         { id: 10, name: 'Listy znajomych', address: 'https://static.xx.fbcdn.net/rsrc.php/v3/yQ/r/MN5ZSGIfEZ3.png' },
+        { id: 11, name: 'Listy znajomych', address: 'https://static.xx.fbcdn.net/rsrc.php/v3/yQ/r/MN5ZSGIfEZ3.png' },
       ],
     }
   },
