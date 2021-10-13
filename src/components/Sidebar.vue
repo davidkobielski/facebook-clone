@@ -1,5 +1,5 @@
 <template>
-  <div class="hidden lg:block w-2/6 xl:w-3/12 h-screen pl-2 pt-5">
+  <div class="hidden xl:block w-full  h-screen pl-2 pt-5">
     <div class="sectionWrapper pb-2">
       <ul>
         <li v-for="item in navLinks.slice(0, 6)" :key="item.id">
