@@ -7,11 +7,10 @@ import './assets/tailwind.css';
 
 // FontAawesome configuration
 import { library } from '@fortawesome/fontawesome-svg-core'
-import { faUserSecret } from '@fortawesome/free-solid-svg-icons'
-import { faFontAwesome } from '@fortawesome/free-brands-svg-icons'
+import { faTv, faSearch, faHome, faBars, faPlus, faBell, faCaretDown, faUsers, faCalendarDay, faArrowLeft } from '@fortawesome/free-solid-svg-icons'
+import { faFontAwesomeFlag, faFacebook, faFacebookMessenger } from '@fortawesome/free-brands-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
-library.add(faUserSecret)
-library.add(faFontAwesome)
+library.add(faTv, faFacebook, faSearch, faHome, faFontAwesomeFlag, faBars, faPlus, faFacebookMessenger, faBell, faCaretDown, faUsers, faCalendarDay, faArrowLeft)
 Vue.component('font-awesome-icon', FontAwesomeIcon)
 
 Vue.config.productionTip = false;

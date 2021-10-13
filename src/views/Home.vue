@@ -1,17 +1,17 @@
 <template>
-  <div class="home">
-    <Header />
+  <div class="home w-screen max-w-full h-screen bg-bodyColor">
+    <Sidebar />
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
-import Header from "@/components/Header.vue";
+import Sidebar from '@/components/Sidebar';
 
 export default {
   name: "Home",
   components: {
-    Header,
+Sidebar
   },
 };
 </script>
