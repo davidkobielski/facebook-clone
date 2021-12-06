@@ -1,4 +1,8 @@
 # facebook-clone
+This front-end facebook clone can be easy used to create some social media app prototype
+
+## Things to do:
+- 
 
 ## Project setup
 ```
