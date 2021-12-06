@@ -2,7 +2,9 @@
 This front-end facebook clone can be easy used to create some social media app prototype
 
 ## Things to do:
-- 
+- Finish home page (right-side friends list, post component)
+- Create profile page
+- Animations
 
 ## Project setup
 ```
