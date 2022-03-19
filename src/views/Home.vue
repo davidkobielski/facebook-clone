@@ -16,7 +16,7 @@
       </div>
 
       <MessengerRooms />
-      <PostCard />
+      <PostCard v-for="post in posts" :key="post.id" :post="post" />
       <div></div>
     </div>
     <div></div>
@@ -28,7 +28,7 @@
 import Sidebar from "@/components/Sidebar"
 import Stories from "@/components/stories"
 import MessengerRooms from "@/components/messengerRoomsWrapper"
-import PostCard from '@/components/postCard'
+import PostCard from "@/components/postCard"
 
 export default {
   name: "Home",
@@ -36,7 +36,7 @@ export default {
     MessengerRooms,
     Stories,
     Sidebar,
-    PostCard
+    PostCard,
   },
   data() {
     return {
@@ -44,6 +44,21 @@ export default {
         isOpen: false,
         postText: "",
       },
+      posts: [
+        {
+          id: 0,
+          author: "Andrzej Sapkowski",
+          group: "Problemy Polskiej Branży IT",
+          createdDate: "Fri Oct 22 2021 11:34:09 GMT+0200 (czas środkowoeuropejski letni)",
+          content:
+            "lorem ipsum lorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsum",
+          reactions: { like: ['Grzesiu', 'franek'], love: ["Bartek"], haha: [], wow: [], angry: ["Filip", "Ormiasz", "Orfeusz"] },
+          comments: [
+            { createdBy: "ABC", content: "No elo", reactions: [] },
+            { createdBy: "dasda", content: "No dasda", reactions: [] },
+          ],
+        },
+      ],
     }
   },
   methods: {
